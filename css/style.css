@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wraper {
+    flex: 1;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+hr {
+    margin-bottom: 60px;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Fuzzy+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <title>Health Advice Organ</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/HAO.png" height="78"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./dailyAdvice.html">Daily Advice</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics of Interest
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./nutrition.html">Nutrition</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./fitness.html">Fitness</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./mentalHealth.html"
+                    >Mental Health</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./sexuality.html">Sexuality</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./vaccination.html"
+                    >Vaccination</a
+                  >
+                </li>
+                <!-- <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Ask A Question</a></li> -->
+              </ul>
+            </li>
+          </ul>
+          <!-- <input class="d-flex me-2" id="userInput" type="search" placeholder="Enter keyword" aria-label="Search">
+            <button class="btn btn-outline-success" type="button" onclick="search()">Search</button> -->
+        </div>
+      </div>
+    </nav>
+
+    <div class="wraper">
+      <h2>Latest Posts</h2>
+      <div class="recentPost my-3 d-flex flex-wrap">
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/lewisCapaldi.webp" class="card-img-top" alt="lewisCapaldi" />
+          <div class="card-body">
+            <h5 class="card-title">Singer Lewis Capaldi extends tour break after health improves</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.bbc.com/news/uk-scotland-67853877" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/growingNumberOfMentalHealth.jpeg" class="card-img-top" alt="mental health" />
+          <div class="card-body">
+            <h5 class="card-title">Growing number of mental health calls to first responders leaves ‘feeling of helplessness’</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://globalnews.ca/news/10207643/mental-health-first-responders/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/jobBurnout.webp" class="card-img-top" alt="burnout" />
+          <div class="card-body">
+            <h5 class="card-title">Job burnout: What is it and how should we respond to it?</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://globalnews.ca/news/10214684/job-burnout-cause-diagnosis-alberta-depression/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <h2>Earliest Posts</h2>
+      <div class="previousPost d-flex flex-wrap">
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/cell-phone-ban-classroom.jpg" class="card-img-top" alt="kid" />
+          <div class="card-body">
+            <h5 class="card-title">Students say their New York school's cellphone ban helped improve their mental health</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.cbsnews.com/news/cellphone-ban-mental-health-newburgh-free-academy-new-york-social-media-depression-bullying/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/feelingSickAfter.png" class="card-img-top" alt="looking at test result" />
+          <div class="card-body">
+            <h5 class="card-title">Why you feel sick after taking off work — and how to stop it</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.cbsnews.com/video/sickness-after-taking-off-work-how-to-stop/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/overCommingStress.png" class="card-img-top" alt="woman thinking" />
+          <div class="card-body">
+            <h5 class="card-title">How to overcome financial stress in 2024</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.cbsnews.com/video/how-to-overcome-financial-stress-2024/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/absenteeism.webp" class="card-img-top" alt="classroom" />
+          <div class="card-body">
+            <h5 class="card-title">Absenteeism: children need support, not sanctions</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.theguardian.com/education/2024/jan/09/absenteeism-children-need-support-not-sanctions" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/findingHappiness.webp" class="card-img-top" alt="woman happy" />
+          <div class="card-body">
+            <h5 class="card-title">Don’t strive for perfection – find happiness in the everyday</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.theguardian.com/lifeandstyle/2024/jan/05/dont-strive-for-perfection-find-happiness-in-the-everyday" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/mentalHealth/usingYourPhone.webp" class="card-img-top" alt="Doctor" />
+          <div class="card-body">
+            <h5 class="card-title">I kept a diary of how I use my phone. The results were depressing</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.theguardian.com/lifeandstyle/2024/jan/08/phone-quitting-diary-week-two" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">© 2023</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> -->
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> -->
+         <!--  <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

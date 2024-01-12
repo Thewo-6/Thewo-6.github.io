@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Fuzzy+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <title>Health Advice Organ</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/HAO.png" height="78"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./dailyAdvice.html">Daily Advice</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics of Interest
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./nutrition.html">Nutrition</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./fitness.html">Fitness</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./mentalHealth.html"
+                    >Mental Health</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./sexuality.html">Sexuality</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./vaccination.html"
+                    >Vaccination</a
+                  >
+                </li>
+                <!-- <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Ask A Question</a></li> -->
+              </ul>
+            </li>
+          </ul>
+          <!-- <input class="d-flex me-2" id="userInput" type="search" placeholder="Enter keyword" aria-label="Search">
+            <button class="btn btn-outline-success" type="button" onclick="search()">Search</button> -->
+        </div>
+      </div>
+    </nav>
+
+    <div class="wraper">
+      <h2>Latest Posts</h2>
+      <div class="recentPost my-3 d-flex flex-wrap">
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/brainHealth.webp" class="card-img-top" alt="brain"/>
+          <div class="card-body">
+            <h5 class="card-title">Exercise can boost brain health</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.sciencedaily.com/releases/2023/12/231213155230.htm" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/heartRhytm.avif" class="card-img-top" alt="running" />
+          <div class="card-body">
+            <h5 class="card-title">Keep fit to avoid heart rhythm disorder and stroke, study suggests</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.independent.co.uk/life-style/health-and-families/patients-fitness-people-taiwan-taipei-b2397164.html" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/exercise.avif" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">How to change up your exercise routine, according to experts</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://www.independent.co.uk/life-style/health-and-families/exercise-routine-fitness-instructor-b2268789.html" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <h2>Earliest Posts</h2>
+      <div class="previousPost d-flex flex-wrap">
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/belly-fat.jpg.avif" class="card-img-top" alt="belly" />
+          <div class="card-body">
+            <h5 class="card-title">Worried about belly fat? 3 sure-shot ways to shed those extra pounds</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://indianexpress.com/article/lifestyle/fitness/belly-fat-reduction-tips-weight-loss-9102833/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/sit-ups_1600_freepik.jpg.avif" class="card-img-top" alt="exercise" />
+          <div class="card-body">
+            <h5 class="card-title">Find out if sit-ups are good for your back</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://indianexpress.com/article/lifestyle/fitness/are-sit-ups-destroying-your-back-experts-weigh-in-9092965/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/walking_1600_getty-2.jpg.avif" class="card-img-top" alt="walking" />
+          <div class="card-body">
+            <h5 class="card-title">What is the best time to walk every day?</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://indianexpress.com/article/lifestyle/fitness/best-time-walking-every-day-benefits-risks-9085832/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/posture-mistakes.jpg.avif" class="card-img-top" alt="posture-mistakes" />
+          <div class="card-body">
+            <h5 class="card-title">Like to sleep on your stomach? Here are 3 posture mistakes you must avoid</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://indianexpress.com/article/lifestyle/fitness/common-posture-mistakes-avoid-namrata-purohit-9083693/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/wallPilates.jpeg" class="card-img-top" alt="wallPilates" />
+          <div class="card-body">
+            <h5 class="card-title">Wall pilates — what to know about 2024’s hottest, easiest new fitness trend</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://nypost.com/2024/01/02/lifestyle/wall-pilates-everything-you-need-to-know-about-the-fitness-trend/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+        <div class="card m-2 mx-auto" style="width: 18rem">
+          <img src="./images/fitness/outWinter.webp" class="card-img-top" alt="Winter" />
+          <div class="card-body">
+            <h5 class="card-title">5 tips for staying active outdoors during the cold winter months from a doctor</h5>
+            <p class="card-text">
+              find out more by clicking bellow
+            </p>
+            <a href="https://nypost.com/2023/12/28/lifestyle/5-tips-for-staying-active-outdoors-during-the-cold-winter-months-from-a-doctor/" class="btn btn-primary">Full article</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">© 2023</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> -->
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> -->
+         <!--  <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
